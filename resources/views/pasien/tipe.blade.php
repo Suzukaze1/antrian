@@ -9,7 +9,9 @@
 </head>
 <body>
 
-    <br><br><br><br><br>
+    <br>
+    <a href="/antrian_loket">< Kembali</a>
+    <br><br><br><br>
     <div class="content">
         <div class="container">
             <div class="row text-center mx-auto">
@@ -18,7 +20,7 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../assets/images/gallery/pasien_lama.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Pasien Lama</h4>
                             <p class="card-text">Pasien Lama </p>
@@ -32,7 +34,7 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../assets/images/gallery/pasien_baru.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Pasien Baru</h4>
                             <p class="card-text">Pasien Baru</p>

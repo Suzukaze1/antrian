@@ -10,9 +10,9 @@
 <body>
 
     <br>
-    <a href="/antrian_loket">< Kembali</a>
+    <a href="/antrian_loket/tipe">< Kembali</a>
     <br><br><br><br>
-    
+
     <div class="content">
         <div class="container">
             <div class="row text-center mx-auto">
@@ -21,7 +21,7 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/pasien_baru_bpjs.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Umum</h4>
                             <p class="card-text">Antrian Untuk Pasien Umum</p>
@@ -35,7 +35,7 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/pasien_baru_umum.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">BPJS</h4>
                             <p class="card-text">Antrian Untuk Pasien BPJS</p>
