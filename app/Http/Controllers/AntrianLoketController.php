@@ -71,6 +71,10 @@ class AntrianLoketController extends Controller
         return view('pasien.pasien_lama');
     }
 
+    public function antrianbaru(){
+        return view('pasien.pasien_baru');
+    }
+
     public function cetak(){
         //bentar2
         // gas ga?

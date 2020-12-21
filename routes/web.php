@@ -19,8 +19,10 @@ Route::get('/', function () {
 
 Route::get('/antrian_loket', 'AntrianLoketController@index');
 Route::get('/antrian_loket/tipe', 'AntrianLoketController@tipe');
-Route::get('/antrian_loket/tipe/antrianlama', 'AntrianLoketController@antrianlama');
-Route::get('/antrian_loket/tipe/antrianlama/umum', 'AntrianLoketController@antrianlamaumum');
+Route::get('/antrian_loket/tipe/pasienlama', 'AntrianLoketController@antrianlama');
+Route::get('/antrian_loket/tipe/pasienlama/umum', 'AntrianLoketController@antrianlamaumum');
+Route::get('/antrian_loket/tipe/pasienbaru', 'AntrianLoketController@antrianbaru');
+Route::get('/antrian_loket/tipe/pasienbaru/umum', 'AntrianLoketController@antrianlamaumum');
 
 Route::get('/antrian_loket/tipe/antrian', 'AntrianLoketController@antrian');
 

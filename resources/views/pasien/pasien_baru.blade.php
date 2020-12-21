@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antrian Pasien</title>
 
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -18,11 +18,11 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title">Pasien Lama</h4>
-                            <p class="card-text">Pasien Lama </p>
-                            <a href="tipe/pasienlama" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
+                            <h4 class="card-title">Umum</h4>
+                            <p class="card-text">Antrian Untuk Pasien Umum</p>
+                            <a href="#" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
                         </div>
                     </div>
 
@@ -32,11 +32,11 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../assets/images/gallery/1.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/1.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title">Pasien Baru</h4>
-                            <p class="card-text">Pasien Baru</p>
-                            <a href="tipe/pasienbaru" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
+                            <h4 class="card-title">BPJS</h4>
+                            <p class="card-text">Antrian Untuk Pasien BPJS</p>
+                            <a href="#" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
                         </div>
                     </div>
 

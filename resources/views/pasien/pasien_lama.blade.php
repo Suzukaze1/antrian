@@ -22,7 +22,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Umum</h4>
                             <p class="card-text">Antrian Untuk Pasien Umum</p>
-                            <a href="antrianlama/umum" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
+                            <a href="pasienlama/umum" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
                         </div>
                     </div>
 
