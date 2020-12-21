@@ -69,6 +69,7 @@
                             <input type="hidden" name="no_urut" value="{{$no_urut}}"> 
                             <input type="hidden" name="panggil" value="0">
                             
+                            
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Gak Yakin</button>
