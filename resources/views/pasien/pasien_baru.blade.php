@@ -9,7 +9,10 @@
 </head>
 <body>
 
-    <br><br><br><br><br>
+    <br>
+    <a href="/antrian_loket">< Kembali</a>
+    <br><br><br><br>
+    
     <div class="content">
         <div class="container">
             <div class="row text-center mx-auto">
@@ -22,7 +25,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Umum</h4>
                             <p class="card-text">Antrian Untuk Pasien Umum</p>
-                            <a href="#" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
+                            <a href="/antrian-pasien-umum-baru" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
                         </div>
                     </div>
 
@@ -36,7 +39,7 @@
                         <div class="card-body">
                             <h4 class="card-title">BPJS</h4>
                             <p class="card-text">Antrian Untuk Pasien BPJS</p>
-                            <a href="#" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
+                            <a href="/antrian-pasien-bpjs-baru" style="width: 100%;" class="btn btn-primary btn-lg pull-right">Button</a>
                         </div>
                     </div>
 

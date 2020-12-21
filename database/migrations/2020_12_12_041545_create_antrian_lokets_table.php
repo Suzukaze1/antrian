@@ -17,7 +17,8 @@ class CreateAntrianLoketsTable extends Migration
             $table->increments('id');
             $table->string("id_loket", 2);
             $table->integer("no_urut");
-            $table->string("no_pasien", 50);
+            $table->string("no_pasien", 50)->nullable();
+            $table->boolean("is_bpjs")->default(0);
             $table->boolean("panggil");
             $table->timestamps();
         });
