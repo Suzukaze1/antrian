@@ -19,7 +19,7 @@
     <script src="/assets/js/modernizr.min.js"></script>
 </head>
 <body>
-    <h1>Masukan Nomor Pasien</h1>
+    <h1 style="text-align:center;">Masukan Nomor Pasien</h1>
 
     <?php
     
@@ -28,16 +28,20 @@
     $id_loket = "A";
     ?>
 
-    
-    <div class="form-group row">
-        <label class="col-1 col-form-label">No. Pasien</label>
-        <div class="col-6">
-            <input id="get_no_pasien" type="number" name="no_pasien" class="form-control" required="required">
-        </div>
-    </div>
+    <br>
+    <a href="/antrian_loket">< Kembali</a>
+    <br><br>
 
-         <!-- Large modal -->
-        <button onclick="getNoPasien()" class="btn btn-primary waves-effect waves-light" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button> 
+    <div class="col text-center">
+        <div class="form-group row">
+            <!-- <label class="col-1 col-form-label">No. Pasien</label> -->
+            <div class="col-12 text-center">
+                <input id="get_no_pasien" type="number" name="no_pasien" class="form-control text-center" required="required" >
+            </div>
+        </div>
+        <!-- Large modal -->
+        <button onclick="getNoPasien()" class="btn-lg btn-primary waves-effect" data-toggle="modal" data-target=".bs-example-modal-lg">Oke</button>
+    </div> 
 
         <!--  Modal content for the above example -->
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="display: none;">
@@ -47,7 +51,7 @@
                         <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
-                    <form action="/antrian_loket/tipe/bpjs/store-bpjs" method="post">
+                    <form action="/antrian_loket/tipe/pasienlama/bpjs/store-bpjs" method="post">
                     <div class="modal-body">
                         <h4>Apakah Nomor Pasien Sudah Benar?</h4>
                             {{-- {{ csrf_field() }} --}}

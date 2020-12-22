@@ -30,7 +30,10 @@ Route::get('/antrian_loket/tipe/pasienbaru/bpjs', 'AntrianLoketController@antria
 Route::get('/antrian_loket/tipe/antrian', 'AntrianLoketController@antrian');
 
 Route::get('/antrian_loket/antrian/umum', 'AntrianLoketController@umum');
+
+//store data
 Route::post('/antrian_loket/antrian/umum/store-umum', 'AntrianLoketController@store_umum');
+Route::post('/antrian_loket/tipe/pasienlama/bpjs/store-bpjs', 'AntrianLoketController@store_bpjs');
 
 Route::get('/antrian-pasien-umum-baru', 'AntrianLoketController@umum_baru');
 Route::get('/antrian-pasien-bpjs-baru', 'AntrianLoketController@bpjs_baru');
