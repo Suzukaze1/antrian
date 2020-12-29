@@ -8,12 +8,10 @@
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-
-    <br>
-    <a href="/antrian_loket">< Kembali</a>
-    <br><br><br><br>
+<br><br><br><br>
     <div class="content">
         <div class="container">
+        <a type="button" class="btn btn-info btn-lg" href="/">Kembali</a><br><br><br>
             <div class="row text-center mx-auto">
 
                 <div class="col-md-6 col-lg-6">

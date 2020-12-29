@@ -29,7 +29,7 @@
     ?>
 
     <br>
-    <a href="/antrian_loket">< Kembali</a>
+    <a href="/">< Kembali</a>
     <br><br>
 
     
@@ -71,7 +71,7 @@
                             
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Gak Yakin</button>
+                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Batal</button>
                             <button type="submit" class="btn btn-primary waves-effect waves-light" >OK</button>
                         </div>
                     </form>

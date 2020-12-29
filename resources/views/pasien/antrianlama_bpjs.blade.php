@@ -29,7 +29,7 @@
     ?>
 
     <br>
-    <a href="/antrian_loket">< Kembali</a>
+    <a href="/">< Kembali</a>
     <br><br>
 
     <div class="col text-center">
@@ -48,7 +48,7 @@
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myLargeModalLabel">Large modal</h4>
+                        <h4 class="modal-title" id="myLargeModalLabel"></h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <form action="/antrian_loket/tipe/pasienlama/bpjs/store-bpjs" method="post">
@@ -68,7 +68,7 @@
                             
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Gak Yakin</button>
+                            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Batal</button>
                             <button type="submit" class="btn btn-primary waves-effect waves-light" >OK</button>
                         </div>
                     </form>

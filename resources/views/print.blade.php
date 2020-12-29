@@ -51,7 +51,7 @@
     </script>
     <script>
         function kembali(){
-            location.href = "/antrian_loket";
+            location.href = "/";
         }
     </script>
 </body>

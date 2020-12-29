@@ -17,7 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/antrian_loket', 'AntrianLoketController@index');
+
+//pasien
+Route::get('/', 'AntrianLoketController@index');
 Route::get('/antrian_loket/tipe', 'AntrianLoketController@tipe');
 Route::get('/antrian_loket/tipe/pasienlama', 'AntrianLoketController@antrianlama');
 Route::get('/antrian_loket/tipe/pasienlama/umum', 'AntrianLoketController@antrianlamaumum');
@@ -37,3 +39,18 @@ Route::post('/antrian_loket/tipe/pasienlama/bpjs/store-bpjs', 'AntrianLoketContr
 
 Route::get('/antrian-pasien-umum-baru', 'AntrianLoketController@umum_baru');
 Route::get('/antrian-pasien-bpjs-baru', 'AntrianLoketController@bpjs_baru');
+
+//admin
+Route::get('/admin', 'AdminController@index')->middleware('CekLogin');
+Route::get('/admin/loket', 'AdminController@loket')->middleware('CekLogin');
+Route::get('/admin/pegawai', 'AdminController@pegawai')->middleware('CekLogin');
+Route::get('/admin/loket/{loket}', 'AdminController@loketpilih')->middleware('CekLogin');
+
+//login
+Route::get('/login', 'LoginController@index');
+Route::post('/loginpost', 'LoginController@login');
+Route::get('/logout', 'LoginController@logout');
+
+//api
+Route::get('/api/getAntrian/{loket}', 'AdminController@getAntrian');
+Route::get('/api/panggil/{loket}', 'AdminController@panggil');

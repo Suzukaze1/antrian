@@ -21,7 +21,7 @@
 
                     <!-- Simple card -->
                     <div class="card m-b-20">
-                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/pasien_lama_umum.jpg" alt="Card image cap">
+                        <img class="card-img-top img-fluid" src="../../assets/images/gallery/pasien_lama.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Umum</h4>
                             <p class="card-text">Antrian Untuk Pasien Umum</p>
